@@ -1,0 +1,53 @@
+# Rust specific ignores
+**/target/
+**/Cargo.lock
+**/*.rs.bk
+**/*.pdb
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Debug files
+**/*.profraw
+**/callgrind.out.*
+**/flamegraph.svg
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build artifacts
+**/build/
+**/dist/
+**/out/
+
+# Dependency directories that might be used by tools
+**/node_modules/
+**/vendor/
+
+# Documentation builds
+**/doc/
+
+# Log files
+**/logs/
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Benchmarking/Testing files
+**/benches/target/
+**/criterion/
+
+# Miscellaneous
+*.bak
+*.tmp
+*.temp
